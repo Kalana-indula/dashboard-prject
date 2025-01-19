@@ -1,0 +1,182 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff8f07;
+    height: 100px;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-links li {
+    display: inline;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header .nav-links a:hover {
+    color: #ffdd57;
+}
+
+/* Container Styles */
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+/* Box Styles */
+.box {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: 0.3s transform, 0.3s box-shadow;
+    color: #020346;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #020346;
+    background-color: white;
+    border-width: 1px;
+}
+
+.box:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* Use 'contain' to maintain aspect ratio or 'cover' to fill */
+    object-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Individual Box Colors */
+/* #box1 {
+    background-color: #007bff;
+}
+
+#box2 {
+    background-color: #ff6347;
+}
+
+#box3 {
+    background-color: #003f7f;
+}
+
+#box4 {
+    background-color: #ff1493;
+}
+
+#box5 {
+    background-color: #00ffa3;
+}
+
+#box6 {
+    background-color: #ff0015;
+}
+
+#box7 {
+    background-color: #5f3fff;
+}
+
+#box8 {
+    background-color: #ff0052;
+}
+
+#box9 {
+    background-color: #30f226;
+}
+
+#box10 {
+    background-color: #ff6fb7;
+} */
+
+/* Water mark styles */
+.water-mark{
+    width: 100%;
+    height: 100%;
+
+    /* Keeps the watermark fixed on the screen */
+    position: fixed;
+
+    /* Aligns it to the top of the page */
+    top: 0;
+
+    /* Aligns it to the left of the page */
+    left: 0;
+
+    /* Places it underneath other elements */
+    z-index: -1;
+
+    /* Makes it faint to act as a watermark */
+    opacity: 0.4;
+    /*  Ensures it does not interfere with user interactions */
+    pointer-events: none;
+}
+
+.water-mark img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Use 'contain' to maintain aspect ratio or 'cover' to fill */
+    object-position: center; /* Centers the image within the container */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    margin-top: auto;
+}
