@@ -21,7 +21,7 @@ header {
     color: #fff;
     /* padding: 20px 40px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -73,6 +73,7 @@ header .nav-links a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 10px;
     transition: 0.3s transform, 0.3s box-shadow;
     color: #020346;
