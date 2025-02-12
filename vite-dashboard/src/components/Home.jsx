@@ -26,6 +26,8 @@ const Home = () => {
         );
     };
 
+    console.log(details[0].division[0].link);
+
     return (
         // Main container for the Home component
         <div className="w-100vw h-[calc(100vh-200px)] bg-white pt-0 pb-0

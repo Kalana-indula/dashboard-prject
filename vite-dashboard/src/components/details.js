@@ -6,27 +6,86 @@ ex:-
     Title name etc.
 
 */
-
-const details=[
+const details = [
     {
-        id:1,
-        imgURL:"/link.png",
-        dptName:"department_1"
+        id: 1,
+        imgURL: "/link.png",
+        dptName: "department_1",
+        division: [
+            {
+                dvName: "Name_1",
+                link: "https://www.youtube.com/"
+            },
+            {
+                dvName: "Name_2",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_3",
+                link: "example.com"
+            }
+        ]
     },
     {
-        id:2,
-        imgURL:"/link.png",
-        dptName:"department_2"
+        id: 2,
+        imgURL: "/link.png",
+        dptName: "department_2",
+        division: [
+            {
+                dvName: "Name_1",
+                link: "https://www.youtube.com/"
+            },
+            {
+                dvName: "Name_2",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_3",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_3",
+                link: "example.com"
+            }
+        ]
     },
     {
-        id:3,
-        imgURL:"/link.png",
-        dptName:"department_3"
+        id: 3,
+        imgURL: "/link.png",
+        dptName: "department_3",
+        division: [
+            {
+                dvName: "Name_1",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_2",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_3",
+                link: "example.com"
+            }
+        ]
     },
     {
-        id:4,
-        imgURL:"/link.png",
-        dptName:"department_4"
+        id: 4,
+        imgURL: "/link.png",
+        dptName: "department_4",
+        division: [
+            {
+                dvName: "Name_1",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_2",
+                link: "example.com"
+            },
+            {
+                dvName: "Name_3",
+                link: "example.com"
+            }
+        ]
     }
 
 ]
