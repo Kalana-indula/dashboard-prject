@@ -11,22 +11,22 @@ const details=[
     {
         id:1,
         imgURL:"/link.png",
-        title:"Card1"
+        dptName:"department_1"
     },
     {
         id:2,
         imgURL:"/link.png",
-        title:"Card2"
+        dptName:"department_2"
     },
     {
         id:3,
         imgURL:"/link.png",
-        title:"Card3"
+        dptName:"department_3"
     },
     {
         id:4,
         imgURL:"/link.png",
-        title:"Card4"
+        dptName:"department_4"
     }
 
 ]
