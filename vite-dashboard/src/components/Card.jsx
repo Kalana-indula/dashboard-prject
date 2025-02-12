@@ -5,7 +5,7 @@ const Card = (props) => {
                             ml-[10px] mr-[10px]
                           flex flex-col items-center justify-center
                           rounded-[20px]
-                          hover:border-blue-700 hover:shadow-xl
+                          hover:shadow-blue-950
                           transition-all duration-300
                           shadow-lg
                           relative">
