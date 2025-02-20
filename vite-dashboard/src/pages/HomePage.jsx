@@ -5,20 +5,20 @@ import Header from "../components/Header";
 const HomePage = () => {
     return (
         <>
-            <div className="app-body relative w-full h-screen">
+            <div className="app-body">
                 {/* Creating Header */}
-                <div className="w-100vw h-[100px]">
+                <div className="top">
                     <Header />
                 </div>
                              
                 {/* Main Content Area */}
-                <div className="w-100vw h-[calc(100vh-200px)] bg-white pt-0 pb-0 flex justify-center items-center">
+                <div className="middle">
                     {/* Render the nested route content here */}
                     <Outlet />
                 </div>
 
                 {/* Footer */}
-                <div className="absolute bottom-0 w-full h-[100px]">
+                <div className="bottom">
                     <Footer />
                 </div>
             </div>
