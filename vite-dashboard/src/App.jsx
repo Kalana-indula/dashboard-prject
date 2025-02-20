@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Department from "./components/Department"; // Import Department
 import Home from "./components/Home";
+import './App.css';
 
 const App = () => (
   <>

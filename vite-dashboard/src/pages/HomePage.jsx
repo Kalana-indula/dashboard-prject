@@ -10,7 +10,7 @@ const HomePage = () => {
                 <div className="w-100vw h-[100px]">
                     <Header />
                 </div>
-
+                             
                 {/* Main Content Area */}
                 <div className="w-100vw h-[calc(100vh-200px)] bg-white pt-0 pb-0 flex justify-center items-center">
                     {/* Render the nested route content here */}

@@ -30,8 +30,7 @@ const Home = () => {
 
     return (
         // Main container for the Home component
-        <div className="w-100vw h-[calc(100vh-200px)] bg-white pt-0 pb-0
-                        flex justify-center items-center">
+        <div className="home">
             {/* Map over the 'details' array and render a card for each item */}
             {details.map(createCard)}
         </div>
