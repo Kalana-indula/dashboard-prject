@@ -16,7 +16,7 @@ const Department = () => {
                 {/* Render the 'Card' component and pass props for id, image, and title */}
                 <Card
                     id={division.dvName}          // Use division name or another unique identifier for key
-                    image={department.imgURL}   // Use department image for all divisions
+                    image={division.imgURL}   // Use department image for all divisions
                     title={division.dvName}     // Division name as the title of the card
                 />
             </Link>
@@ -25,10 +25,16 @@ const Department = () => {
 
     return (
         <>
-            <div className="flex justify-center items-center">
+        <div className="dpt">
+        <div className="dpt-header">
+                <h1>{dptName}</h1>
+            </div>
+            <div className="dpt-card">
                 {/* Render division cards for the current department */}
                 {department.division.map(createCard)}
             </div>
+        </div>
+            
         </>
     );
 }

@@ -14,14 +14,17 @@ const details = [
         division: [
             {
                 dvName: "Name_1",
+                imgURL:"/logo.png",
                 link: "https://www.youtube.com/"
             },
             {
                 dvName: "Name_2",
+                imgURL:"",
                 link: "example.com"
             },
             {
                 dvName: "Name_3",
+                imgURL:"",
                 link: "example.com"
             }
         ]
@@ -33,6 +36,7 @@ const details = [
         division: [
             {
                 dvName: "Name_1",
+                imgURL:"",
                 link: "https://www.youtube.com/"
             },
             {

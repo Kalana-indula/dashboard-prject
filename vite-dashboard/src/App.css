@@ -98,4 +98,18 @@ header h1 {
     height: 100px;
 }
 
+.dpt-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+  /* Card container styles (cards in a centered grid below header) */
+  .dpt-card {
+    display: flex;
+    flex-wrap: wrap;      /* Allow cards to wrap to next line */
+    justify-content: center; /* Center cards horizontally */
+    width: 100%;         /* Full width */
+  }
 
